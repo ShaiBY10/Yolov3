@@ -7,8 +7,8 @@ cap = cv2.VideoCapture(0)
 with open(classesFile, 'rt') as f:
 	classNames = f.read().rstrip('\n').split('\n')
 
-modelConfiguration = 'yolov3.cfg.txt'
-modelWeights = 'yolov3.weights'
+modelConfiguration = 'yolov3.cfg.txt' #Config file, please update according to the config file you downloaded
+modelWeights = 'yolov3.weights'  #Config file, please update according to the config file you downloaded
 widthWidthTrget = 320
 widthHeightTrget = 320
 confTreshold = 0.5
